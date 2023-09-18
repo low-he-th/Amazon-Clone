@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding: 0PX;
+    font-family: arial;
+}
+.nav-bar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+   
+    height: 50px;
+    width: 140px; 
+
+}
+.logo{
+    height: 50px;
+    width: 140px;
+    margin-top: 9px;
+  background-image: url(amazon_PNG11.png);
+    background-size:cover;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 2px solid white;
+}
+/*===========box 2======================*/
+.add-first{
+color: white;
+font-size: 1rem;
+margin-left: 13px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.add-second{
+font-size: 1rem;
+margin-left: 3px;
+}
+.nav-address
+{
+    margin-left:10px
+}
+/*===============box3============*/
+.nav-search
+{
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-icon
+{
+    background-color: rgb(255, 191, 0);
+    color: black;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.input
+{
+    width: 100%;
+    border:none;
+    font-size: 15px;
+}
+.option
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border:none;
+    background-color: azure;
+    font-size: 15px;
+}
+.nav-search:hover{
+    border:2px solid rgb(255, 187, 0);
+}
+/*=========signin box-----------------------*/
+span{
+    font-size: 15px;
+}
+.nav-account
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cart-logo
+{
+display: flex;
+align-items: center;
+}
+.cart-logo i{
+    font-size: 30px;
+}
+
+.navbar-below
+{
+    height: 39px;
+    width: 100%;
+    background-color: #004646;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-below-menu i{
+    color: white;
+}
+.navbar-below-options
+{
+width: 950px;
+height: 40px;
+margin-right: 600px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.nav-text
+{
+    color: white;
+}
+.hero-img
+{
+    background-image: url(hero\ image.jpg);
+    background-size:cover;
+    height: 400px;
+}
+.shop-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: rgb(215, 222, 225);
+    padding:3px;
+   
+}
+.box
+{
+   
+    height: 480px;
+    width: 370px;
+    background-color: white;
+    padding: 1px 0px 15px;
+    margin-top: 10px;
+}
+.box1
+{
+background-size: cover;
+width: 290px;
+height:370px ;
+}
+.box-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.card-text2
+{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #007185;
+}
+.card-text1
+{
+    font-size:20px;
+    margin-top: 5px;
+    margin-left:35px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--------footer----------------------*/
+footer
+{
+    margin-top: 5px;
+}
+.foot-panel1
+{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel2
+{
+background-color: #222f3d;
+color: white;
+height: 350px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.foot-text
+{
+    font-size: 20px;
+    margin-top: 15px;
+}
+ul a{
+    margin-top: 5px;
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.foot-panel3
+{
+    background-color: #222f3d;
+    height: 70px;
+    width: 100%;
+    border-top:1px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo
+{
+    background-image: url(amazon_PNG11.png);
+    background-size: cover;
+    height: 25px;
+    width: 70px;
+}
+.foot-panel4
+{
+    height: 80px;
+    width: 100%;
+    background-color: #131a22;
+}
+.foot-a
+{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 20px;
+
+}
+.foot-a a{
+    text-decoration: none;
+    color: white;
+    padding:15px;
+}
+.footp4-text2
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+} 
